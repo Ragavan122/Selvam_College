@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mind reader</title>
+    <style>
+
+        *{
+            padding:0;
+            margin:0;
+        }
+        body {
+            background-color: rgb(15, 9, 48);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            color: orange;
+            text-align: center;
+            margin-bottom: 25px;
+            text-transform: capitalize;
+        }
+
+        h2 {
+            color: crimson;
+            background-color: aliceblue;
+            padding: 10px;
+            font-weight: 900;
+        }
+        .flex-container{
+
+            margin-top:30px ;
+            border: 2px solid gray;
+            box-shadow: 2px 0px 5px grey;
+            display: flex;
+            flex-direction: column;
+            width:500px;
+            height:500px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .flex-item{
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        label{
+            color: crimson;
+            display: block;
+        }
+
+        input{
+            border: none;
+            width:50%;
+            height: 40px;
+            border-radius: 30px;
+            text-align: center;
+        }
+
+       button{
+        background-color:blueviolet;
+        width:30%;
+        border: none;
+        padding: 20px;
+        width:80%;
+        height: 40px;
+        color: chocolate;
+        font-size: large;
+        border-radius: 30px;
+       }
+        
+        
+    </style>
+</head>
+
+<body>
+
+
+   
+
+    <form action=""onsubmit=" return print()">
+
+
+        <div class="flex-container">
+
+            <h1>mind reader</h1>
+            
+            <input type="text" placeholder="enter 1st no -user" id="firstvalue"class="flex-item">
+            
+            <input type="text" placeholder="enter 2nd no -user" id="secondvalue"class="flex-item">
+
+            <input type="text" placeholder="enter 3rd no -admin" id="thirdvalue"class="flex-item">
+
+            <input type="text" placeholder="enter 4th no -user " id="fourthvalue"class="flex-item">
+
+            <input type="text" placeholder="enter 5th no -admin" id="fifthvalue"class="flex-item">
+
+            <button type="submit" class="flex-item">ok</button>
+
+            
+        </div>
+
+
+
+    </form>
+
+
+    <script>
+
+
+
+function print(){
+
+    
+        let fir = Number(document.getElementById('firstvalue').value);
+        let sec = Number(document.getElementById('secondvalue').value);
+        let fou = Number(document.getElementById('fourthvalue').value);
+        let fif = Number(document.getElementById('fifthvalue').value);
+
+        let summ = "2";
+          let pin=fir-2;
+
+          let actthi=999-sec;
+          
+          let actfif=999-fou;
+
+        let ans=summ+pin;
+        
+
+        if(fir==""){
+            alert("enter your first no");
+        }
+        else if((!fir=="") &&(!sec=="")&&(!fou=="")){
+            document.getElementById('fifthvalue').value=actfif ;
+            // alert(ans);
+  
+         }
+        
+        else if((!fir=="") &&(!sec=="")){
+             document.getElementById('thirdvalue').value=actthi;
+        }
+        else if(!fir==""){
+
+       alert("your answer is :  "+ans);
+        }
+
+
+       
+
+       
+
+        return false;
+
+}
+
+    </script>
+
+</body>
+
+</html>
