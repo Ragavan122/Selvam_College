@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json using php</title>
+    <script>
+
+
+
+function getdata(){
+   let xhr=new XMLHttpRequest();
+
+xhr.open("http://localhost/phplearning/json/datatype.json",false);
+xhr.send();
+
+
+   if(xhr.readyState==4 && xhr.status==200){
+     
+      var otp=xhr.responseText;
+      // alert(otp);
+   }
+
+  
+}
+
+
+    </script>
+</head >
+<body onload="getdata();">
+
+<h1> JSON</h1><br><br><br><br><br>
+<!-- 
+<h2 id="result"> </h2> -->
+
+    
+</body>
+</html>
+
+

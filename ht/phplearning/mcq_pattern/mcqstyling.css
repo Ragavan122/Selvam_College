@@ -1,0 +1,32 @@
+.container{
+
+  background-color:grey;
+  color:black;
+  width:100%;
+  height:100vh;
+
+
+}
+
+
+.questiondetails{
+ 
+   border:1px solid black;
+
+}
+
+th{
+ 
+   border:1px solid black;
+   margin-left :5px;
+   n
+
+}
+
+td{
+ 
+   border:1px solid black;
+   text-align:center; 
+  
+
+}

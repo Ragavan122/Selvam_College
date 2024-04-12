@@ -1,0 +1,52 @@
+
+ [
+    
+    
+{
+ "model":"redmi note 6 pro",
+ "brand":"redmi", 
+ "price":"14000",
+ "ram":"8gb",
+ "storage":"64gb",
+ "camera":"48mp",
+ "isAvailable":true,
+ "image": "https://m.media-amazon.com/images/I/411iWoJEJjL._SX300_SY300_QL70_FMwebp_.jpg"
+},
+
+{
+    "model":"oneplus 5 pro",
+    "brand":"oneplus", 
+    "price":"25000",
+    "ram":"8gb",
+    "storage":"64gb",
+    "camera":"66mp",
+    "isAvailable":true,
+    "image": "https://m.media-amazon.com/images/I/411iWoJEJjL._SX300_SY300_QL70_FMwebp_.jpg"
+   },
+
+   {
+    "model":"appple 12 pro",
+    "brand":"apple", 
+    "price":"54000",
+    "ram":"16gb",
+    "storage":"12gb",
+    "camera":"120mp",
+    "isAvailable":false,
+    "image": "https://m.media-amazon.com/images/I/411iWoJEJjL._SX300_SY300_QL70_FMwebp_.jpg"
+   },
+
+   {
+    "model":"samsung",
+    "brand":"samsung ", 
+    "price":"44000",
+    "ram":"8gb",
+    "storage":"124gb",
+    "camera":"89mp",
+    "isAvailable":true,
+    "image": "https://m.media-amazon.com/images/I/411iWoJEJjL._SX300_SY300_QL70_FMwebp_.jpg"
+   }
+
+
+]
+
+ 
