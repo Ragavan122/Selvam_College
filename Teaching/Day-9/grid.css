@@ -1,0 +1,41 @@
+
+.layout{
+
+    background-color: aqua;
+    display: grid;
+
+    grid-template-areas: 
+    "h h h"
+    "s1 m s2"
+    "f f f";
+    grid-template-rows:10vh 80vh 10vh;
+    
+}
+
+.box{
+    background-color: rgb(200, 255, 0);
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.header{
+    grid-area: h;
+}
+
+
+.side1{
+    grid-area: s1;
+}
+
+
+.main{
+    grid-area:m;
+}
+
+.side1{
+    grid-area: s2;
+}
+
+.footer{
+    grid-area: f;
+}

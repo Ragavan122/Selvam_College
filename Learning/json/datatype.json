@@ -1,0 +1,27 @@
+{
+    "name":"Raam",
+    "Age":15,
+    "isMarried":false,
+    "marks":[
+        {
+            "English":85,
+           " Description":"verygood"
+        },
+
+        {
+            "maths":54,
+            " Description":"good"     
+        }
+        
+   ],
+   "average":75,
+   "hobbies":null,
+
+   "address":{
+    "street":"tamil street",
+    "city":"Trichy",
+    "pin":620003
+   }
+  }
+
+  

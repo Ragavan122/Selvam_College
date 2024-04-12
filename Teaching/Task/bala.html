@@ -1,0 +1,198 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="return show(event)">
+        <label for="uname">Student Name</label>
+        <input type="text" placeholder="Enter your name" id="uname">
+
+        <label for="regno">Reg No</label>
+        <input type="text" placeholder="Enter your Reg No" id="regno"><br><br>
+
+        <label for="tmark">Tamil</label>
+        <input type="text" placeholder="Enter your Tamil mark" id="tmark">
+
+        <label for="emark">English</label>
+        <input type="text" placeholder="Enter your English mark" id="emark">
+
+        <label for="mmark">Maths</label>
+        <input type="text" placeholder="Enter your Maths mark" id="mmark"><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <table border="1">
+        <tr>
+            <th>Reg No</th>
+            <th>Name</th>
+            <th>Tamil</th>
+            <th>English</th>
+            <th>Maths</th>
+            <th>Result</th>
+            <th>Total</th>
+        </tr>
+        <tbody id="tableBody"></tbody>
+    </table>
+
+    <script>
+        var studentData = [];
+
+        function show(event) {
+            event.preventDefault();
+
+            var uname = document.getElementById("uname").value;
+            var regno = document.getElementById("regno").value;
+            var tmark = Number(document.getElementById("tmark").value);
+            var emark = Number(document.getElementById("emark").value);
+            var mmark = Number(document.getElementById("mmark").value);
+
+            let total = tmark + emark + mmark;
+            let result = (tmark >= 35 && emark >= 35 && mmark >= 35) ? "Pass" : "Fail";
+
+            studentData.push([regno, uname, tmark, emark, mmark, result, total]);
+            updateTable();
+
+            return false;
+        }
+
+        function updateTable() {
+            var tableBody = document.getElementById('tableBody');
+            tableBody.innerHTML = '';
+
+            studentData.forEach(data => {
+                var row = document.createElement('tr');
+                data.forEach(value => {
+                    var cell = document.createElement('td');
+                    cell.textContent = value;
+                    row.appendChild(cell);
+                });
+                tableBody.appendChild(row);
+            });
+        }
+    </script>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <form onsubmit=" return show(event)">
+
+        <label for="uname">Student-Name</label>
+        <input type="text" placeholder="enter your name" id="uname">
+
+        <label for="regno">Regno</label>
+        <input type="text" placeholder="enter your Reg No" id="regno"><br><br>
+
+        <label for="tmark">Tamil</label>
+        <input type="text" placeholder="enter your Tamil mark" id="tmark">
+
+        <label for="emark">English</label>
+        <input type="text" placeholder="enter your english mark" id="emark">
+
+        <label for="mmark">M-Mark</label>
+        <input type="text" placeholder="enter your maths mark" id="mmark"><br><br><br><br>
+
+
+        <button type="submit"> Submit</button>
+
+
+        <table border="1">
+            <tr>
+                <th> Reg No</th>
+                <th> Name</th>
+                <th> Tamil</th>
+                <th> English</th>
+                <th> Maths</th>
+                <th> Result</th>
+                <th> Total</th>
+            </tr>
+
+            <tr>
+
+                <td id="otpregno"> </td>
+                <td id="otpname"> </td>
+                <td id="otprtamilm"> </td>
+                <td id="otpengm"> </td>
+                <td id="otpmatm"> </td>
+                <td id="otpresm"> </td>
+                <td id="otptot"> </td>
+
+            </tr>
+
+
+
+        </table>
+
+    </form>
+
+
+    <script>
+
+
+        function show() {
+
+             
+
+            event.preventDefault();
+
+            var uname = document.getElementById("uname").value;
+            var regno =document.getElementById("regno").value;
+            var tmark = Number(document.getElementById("tmark").value);
+            var emark = Number(document.getElementById("emark").value);
+            var mmark = Number(document.getElementById("mmark").value);
+
+
+            let total = tmark + emark + mmark;
+            let result;
+
+            if((tmark>=35) &&  (emark>=35) && (mmark>=35)){
+                 result= "Pass";
+            }
+            else{
+                 result="Fail";
+            }
+            
+            let  studentdatas=[uname,regno,tmark,emark,mmark,result,total];
+
+
+            /*otp   */
+
+            var otpregno = document.getElementById('otpregno').innerHTML = studentdatas[0];
+            var otpname = document.getElementById('otpname').innerHTML = studentdatas[1];
+            var otprtamilm = document.getElementById('otprtamilm').innerHTML = studentdatas[2];
+            var otpengm = document.getElementById('otpengm').innerHTML = studentdatas[3];
+            var otpmatm = document.getElementById('otpmatm').innerHTML = studentdatas[4];
+
+            var otptot = document.getElementById('otptot').innerHTML = studentdatas[5];
+            var otpresm = document.getElementById('otpresm').innerHTML = studentdatas[6];
+
+
+            return true;
+
+        }
+
+
+
+    </script>
+
+
+</body>
+
+</html> -->

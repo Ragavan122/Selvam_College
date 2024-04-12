@@ -1,0 +1,22 @@
+
+
+
+form:
+    -An HTML form is used to collect user input
+     -ex form draw
+
+label  :
+    
+     ex->
+
+text,password,submit,button,radio,checkbox,date,email,number,url,search ,tel,file   -13
+
+textarea  ,select-option     -2
+
+attributes
+ 
+ form - action ,method,target        - 3
+
+label -> for                          -1
+
+input - type,id,class,value,required,placeholder,autocomplete,name -8

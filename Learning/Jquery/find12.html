@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find in html  </title>
+    L<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <style>
+      
+    </style>
+</head>
+<body>
+
+<a href="www.facebook.com"id="fb">facebook</a><br>
+<a href="www.instagram.com"class="inst">instagram</a><br>
+<a href="www.youtube.com">youtube</a>
+
+<ol>
+
+    <li>facebook</li>
+    <li>instagram</li>
+    <li>whatsapp <span id="one">messenger</span> </li>
+    
+</ol>
+
+
+<script>
+
+ $("document").ready(function(){
+
+  
+  $("ol").find("#one").css("background-color","tomato");
+  $("ol").find("#one").html("tamil");
+
+
+ });
+
+</script>
+
+
+
+
+</body>
+</html>

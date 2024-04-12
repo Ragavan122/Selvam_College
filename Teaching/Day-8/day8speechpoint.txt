@@ -1,0 +1,25 @@
+
+                                                 
+
+font-
+
+                   font-    family,size,weight,style
+                   text-    transform,align,decoration,indent,shadow
+
+
+pseudo slector    
+
+                   a- link,visited,active,text decoration-none,focus
+
+
+
+flex-Flexible: 
+
+                   ex 1- p 3,flex,order,ratio
+                   ex 2- box 4,direction,main access,cross access,jus,align->
+                                                          start,end,center,space around,space between,space evenly, 
+                                                          flex-wrap,
+                                                          box 4: flex,flexgrow,flex-shrink,flex-basis
+
+
+media -(all)speech,screen,print 

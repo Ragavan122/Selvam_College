@@ -1,0 +1,52 @@
+[
+
+{
+    "model": "redmi note 6  " ,
+    "brand":"redmi "  ,
+    "mrp":150000.00   ,
+    "imge": " https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/n/m/f/g34-5g-pb1v0002in-motorola-original-imagwu4rayqhgfjh.jpeg?q=70&crop=false" ,
+    "storage": " 64gb " ,
+    "ram": " 4gb" ,
+    "camera ": " 48mb",
+   "isAvailable" :false 
+
+},
+
+{
+    "model": "one plus   " ,
+    "brand":"one plus "  ,
+    "mrp":56000.00   ,
+    "imge": " https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/n/m/f/g34-5g-pb1v0002in-motorola-original-imagwu4rayqhgfjh.jpeg?q=70&crop=false" ,
+    "storage": " 128gb " ,
+    "ram": " 8gb" ,
+    "camera ": " 60mb",
+    "isAvailable" :true  
+
+},
+
+{
+    "model": "samsung  " ,
+    "brand":"samsung "  ,
+    "mrp":35860.50   ,
+    "imge": " https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/n/m/f/g34-5g-pb1v0002in-motorola-original-imagwu4rayqhgfjh.jpeg?q=70&crop=false" ,
+    "storage": " 64gb " ,
+    "ram": " 8gb" ,
+    "camera ": " 120mb" ,
+    "isAvailable" :false 
+
+},
+
+{
+    "model": "oppo  " ,
+    "brand":"oppo "  ,
+    "mrp":15800.50   ,
+    "imge": " https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/n/m/f/g34-5g-pb1v0002in-motorola-original-imagwu4rayqhgfjh.jpeg?q=70&crop=false" ,
+    "storage": " 32gb " ,
+    "ram": " 4gb" ,
+    "camera ": " 24mb" ,
+    "isAvailable" :true 
+
+}
+
+
+]

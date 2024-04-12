@@ -1,0 +1,65 @@
+
+/*  3a.element selector  */
+
+
+
+h1{
+    background-color: bisque;
+    color: red;
+}
+
+
+/*  3b. id selector  */
+
+#fb{
+    color:blue;
+}
+
+#wa{
+    color:green;
+}
+
+#ins{
+    color:palevioletred;
+}
+
+
+
+/*  3c.class selector  */
+
+.sctdepartment{
+    color:orangered;
+}
+
+/* group selector */
+
+#sct ,.sctdescription{
+    color:yellow;
+} 
+
+
+#nct,.nctdescription{
+    color: turquoise;
+}
+
+
+
+
+
+/*  3e.universal selector  */
+*{
+ background-color: chartreuse;
+
+}
+
+
+
+
+
+
+/*  1.element selector  */
+
+
+
+
+/*  1.element selector  */

@@ -1,0 +1,91 @@
+
+1.Grouping-
+
+
+   Group- a set of people, organizations, or things which are considered together because they have something in common.
+
+   Grouping can be performed with the help of various tags such as <div>, <header>, <footer>,  and <section>.
+ 
+   head,header,heading.
+
+
+ 1a. structure:
+
+      <html> 
+      <head> 
+            <title>    <title>
+      </head> 
+      <body> 
+                  <div class="div1"> 
+                      <h1>In Div1</h1> 
+                   </div> 
+
+                 <div class="div2"> 
+                        <h1>In Div2</h1> 
+                 </div> 
+      </body> 
+      </html> 
+
+ 1b.Styling:
+
+       inline styling :
+                              using style attribute:
+                                <p style="background-color:red;fonnt-size:20px;text-align:center;"> </p>
+       internal styling :
+                                <style> 
+                                      background-color:red;
+                                      color:white;
+                                      font-size:20px;
+                                      text-align:center; 
+                                 </style>
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+2.meta tags:
+
+    The <meta> tag defines metadata about an HTML document. Metadata is data (information) about data.
+
+       1.tags always go inside the <head> element,
+       2.Metadata will not be displayed on the page, but is machine parsable
+       3.Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services.
+
+
+   used attributes:
+     
+      charset - Specifies the character encoding for the HTML document (encode the world all language utf-8)
+      name    - Specifies a name for the metadata                      (name for search engine ) (name-author ,content-author details)
+      content - Specifies the value associated with the http-equiv or name attribute (we dont want to change the code for new version web brosers.)
+                                                                                      (device responce behave)
+utf-unicode transformation format - 8
+
+  ------------------------------------------------------------------------------------------------------------------------------------------
+working only html 5 version
+
+video :
+
+     attribute: autoplay,preload,controls, height,width, loop poster,src  -8
+         controls ,width,height,automaticplay or preload="3" 1,auto,none,metadata,loop complete again play ,scr path, 
+      poster ->videoposter
+      <video src = "foo.mp4"  width = "300" height = "200" controls> Your browser does not support the 
+      <video>
+          element.   
+     </video>
+
+Audio:
+
+     attribute: autoplay, controls,loop, preload,src  -5
+                controls ,automaticplay or preload="3" 1,auto,none,metadata,loop complete again play ,scr path, 
+  
+     <audio src = "foo.wav" controls autoplay> Your browser does not support the 
+     <audio> 
+             element.   
+     </audio>
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+span tag
+escape sequence
+iframe  -embed the external page into our page
+
+lang="en" -which language code 
+

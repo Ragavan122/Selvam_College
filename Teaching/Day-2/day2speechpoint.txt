@@ -1,0 +1,78 @@
+
+
+Quote:
+
+---------------------------------------------------------------------------------------------------------
+inline element 
+
+       An inline element does not start on a new line.
+
+block element
+    
+      A block-level element always starts on a new line,
+
+
+------------------------------------------------------------------------------------------------------------
+
+Attributes:
+
+
+   All HTML elements can have attributes.
+   Attributes provide additional information about elements.
+  Attributes are always specified in the start tag.
+  Attributes usually come in name/value pairs like: name="value"
+
+
+------------------------------------------------------------------------------------------------------------
+
+image:
+
+      about image ,empty tag  -a visual representation of something: 
+
+      images format    -> jpeg,png
+      image tag        -> Attribute  
+                             src-source="url" -Uniform Resource Locator  
+                                  absolute url-"https://www.w3schools.com/images/img_girl.jpg".
+                                  relative url- src="/images/img_girl.jpg".
+
+                            Width="" width
+                            height=""
+                            alt= ""tag specifies an alternate text for an image
+                            title=""
+    
+   
+
+------------------------------------------------------------------------------------------------------------
+   List:
+
+          
+         About ,tag-    a number of connected items written consecutively,   
+         types - 
+                attributes-type=""
+         ol- server in hotel
+         ul- shop
+         dl- hod's
+            
+------------------------------------------------------------------------------------------------------------
+Tables:
+  
+    about, -an arrangement of information , typically in rows and columns,     (or data)
+
+     table-  example(student details)name,id,department
+     tag-
+       
+------------------------------------------------------------------------------------------------------------
+    Link :
+
+
+   1.  anchor tag:
+
+      about-atag defines hyperlink
+      attributes- href
+
+            request ,response
+
+
+
+
+

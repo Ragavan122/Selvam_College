@@ -1,0 +1,172 @@
+
+
+
+
+  Hii Goodafternoon all,
+
+
+
+Myself vijaya ragavan,im form Trichy,im a new web developer for this college.
+
+from today to next 10 classes web developement course irukum.
+
+
+
+first oru super ahh na quote start panam class ah..
+
+a person who makes few mistakes makes little progress.
+
+-----------------------------------------------------------------------
+first web developement na ennau theriyuma
+
+
+what is web?
+web na valai valai na athula multiple layers irukum.athu ovvoru field ku yetha maathiri change aagum.
+
+
+if you are a fresher or new  to this technology you did a lot of error on your code.Don't panic okay.
+
+programming ah poruutha vara neenga panra chinna chinna mistakes tha ungalukku periya  learning;
+ na sonnathu ungaluku kandipa marakka chance iruku aaana nenga code panni error vanthu nengala sortout panna kandipa marakkathu.
+
+na already discusss panna maathiri 
+
+
+web developement la course totally 10 days.
+athula html 5 days.
+css 5 days.
+
+
+personal computer -pc
+COMPUTER Full Form: Full Form of Computer is “Common Operating Machine Purposely Used for Technological and Educational Research
+Wireless Fidelity
+Central Processing Unit
+
+
+inthaa topoic kandipa cover pannuven athu illama vera ethavathu topic la ungalukku doubt iruntha neenga yenta kekkalam.
+
+nammma sort out pannalam
+
+
+day 1 today namma pakka pora topic yennana 5 html introduction,setup,basic tags comments text
+
+okay we go to the topic
+----------------------------------------------------------------------------------------------------------------------------------
+
+first entha oru language padikirathuku munnadiyum antha language yaar create panna yeppo create pannanganu theinchirukanaum.
+
+html a create pannavar name tim berners lee in 1993.
+
+----------------------------------------------------------------------------------------------------------------------------------
+okay ne next html na yenna
+
+
+html stands for hypertext markup language
+
+It is the standard text formatting language for creating web pages,
+
+html consist of a series of elements.
+
+that html element tell the browser how to display the content.
+
+elements example  <p>  paraga </p>
+---------------------------------------------------------------------------------------------------------------------------------------
+html installation porutha vaara we need to applications is enough.
+
+one is web browser
+
+and another one is text editos
+
+web browser la examples3
+
+text editors  examples3
+
+---------------------------------------------------------------------------------------------------------------------------------------
+basic html page structure 
+
+structure define panni onnu onnayum sollanum
+
+
+hhtml-root element explain
+
+head- meta information about the html page
+<title>  it shows our page title.
+<body> defines the document's body.intha tag ulla tha namma heading tag,paragraph,table images kaana cose eluthuvom
+<h1> large heading
+<h6> small heading 
+<p> deines the paragaph
+
+
+okay ,next we write one hello world program with examples
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+comment line na yennan
+
+html commentline improves readablity of the code,because your single html document is accessed ,multiple developers
+nammaloda codela namma 
+
+-----------------------------------------------------------------------------------------------------------------------
+oaky first day topic is coveres next we do one excercise.
+
+
+html la one fifty plus tags iruku athula neenga oru student next class la 2 tags compolsory ssollanum;
+
+do your basic hello world program
+
+
+
+
+
+
+
+
+
+SOLLITHARANUMA QUESTION? PANNAKOODATHU? Explain
+Telling Day content to students
+Dont smile like students
+sound not be louder
+Not telling the examples properly 
+struc
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

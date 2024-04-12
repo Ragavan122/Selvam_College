@@ -1,0 +1,37 @@
+
+
+
+css-types- 3 types,
+
+structure:
+
+selector,open curly bracket,property,property value,semicolan,close curly bracket
+
+< -left angle bracket
+> -right angle bracket
+
+( -left parentheses
+)- right parenteses
+
+[- left square bracket
+]-right square bracket
+
+{ -left curly bracket
+} -right curly bracket
+
+
+selector:
+
+element,class,id,universal selector,group selector,pseudo class selector
+
+color:
+
+color name,
+rgb(255,255,255),
+hexa decimal numbers-> #a      decimal-0,9 binary-0,1,octal number-0,7,hexa decimal numbers 0,9,af
+hsl
+
+comments:
+
+hsl(310, 100%, 50%)
+

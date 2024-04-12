@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+var str='{"name":"Raam","1":"square notation","age":15,"isMarried":false,"is unMarried":true,"marks":[{"English":85,"Description":"verygood"},{"maths":54,"Description":"good"}],"average":75,"hobbies":null,"address":{"street":"tamilstreet","city":"Trichy","pin":620003}}';
+
+
+var objdt=JSON.parse(str);
+
+// document.write("<br>"+typeof(objdt));
+
+document.write("<br>"+objdt.name);  // dot notation in object
+document.write("<br>"+objdt["1"]);  // square notation in object
+document.write("<br>"+objdt.age);
+document.write("<br>"+objdt.isMarried);
+document.write("<br>"+objdt["is unMarried"]);
+document.write("<br>"+objdt.address.pin);
+document.write("<br>"+objdt.average);
+document.write("<br>"+"Maths mark  :  "+objdt.marks[1].maths);
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+
+/* box 1 styling */
+
+.box1{
+    background-color:red;
+    color:red;
+   
+    cursor: pointer;
+    padding:1.2em;
+
+}
+
+.box1 a{
+    margin-top: 5px;
+    color:white;
+    text-decoration: none;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+.box1 a:hover{
+    color:black;
+   
+}
+
+h1{
+    color:red;
+    padding-left: 30px;
+}
+
+
+/* box  2 styling */
+
+
+.box2 p{
+    padding-top:-20px ;
+    padding-left: 30px;
+    color:red;
+    word-spacing: 3px;
+    font-size: 25px;
+}
+.box2 h1:hover{
+    color:black;
+   
+}
+
+
+/* box 3 styling */
+
+
+.box3{
+    margin-top: 50px;
+   
+}
+
+.box3 a{
+    font-size: 30px;
+    text-decoration: none;
+    padding-right:30px;
+}
+
+img{
+    margin-top: 25px;
+}
+
+/* table styling */
+#table{
+    background-color: burlywood;
+    padding-left: 30px;
+}
+
+/* form styling */
+#forms{
+    background-color: burlywood;
+    padding-left: 30px;
+}
+
+/* list styling */
+
+#lists{
+    background-color: burlywood;
+    padding-left: 30px;
+}
